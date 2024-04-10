@@ -177,9 +177,9 @@ section {
 }
 
 .nav_link_side::after {
-  rotate: (90deg);
   content: "";
-  height: 4px;
+  rotate: (90deg);
+  height: 40px;
   width: 100%;
   background: rgb(156, 31, 156);
   position: absolute;
@@ -244,12 +244,28 @@ section {
 
 article {
   display: block;
+  padding: 120px 80px 40px 0;
 
   p {
-    padding: 120px 100px 40px 0;
     text-align: left;
-    line-height: 80px;
+    line-height: 70px;
   }
+}
+
+.top {
+  padding-top: 40px;
+}
+
+.back {
+  position: absolute;
+  background-color: white;
+  padding: 0 8px 3px 4px;
+  cursor: cell;
+  color: black;
+  left: 80px;
+  top: 60px;
+  text-decoration: none;
+  font-size: 36px;
 }
 
 @media (max-width: 600px) {
